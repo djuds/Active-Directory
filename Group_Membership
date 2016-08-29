@@ -1,0 +1,4 @@
+//all users with an email address, a login script, and not a member of a specific group
+
+(&(objectClass=user)(objectCategory=person)(mail=*)(scriptPath=*)(!(memberof=CN=container-name,OU=abc,OU=def,DC=abc,DC=def,DC=ghi,DC=com)))
+
