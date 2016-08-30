@@ -1,0 +1,4 @@
+//
+//In this example, import all users that are a member of the RF-Staff Security Group in AD.
+(&(objectClass=user)(objectCategory=person)(mail=*)(memberof=CN=RF-Staff,OU=IT,OU=HQ,DC=company,DC=com))
+
