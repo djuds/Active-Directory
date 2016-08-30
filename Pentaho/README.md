@@ -3,4 +3,4 @@
 Pentaho Data Integration (Kettle) files used for integrations with Active Directory and Salesforce/Remedyforce.
 
 
-(/Add RF Staff Image.png)
+![Screenshot](/Add RF Staff Image.png)
