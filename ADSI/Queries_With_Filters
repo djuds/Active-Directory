@@ -5,3 +5,6 @@
 //In this example, import all users with an email address, has a login script, and is NOT a member of the RF-Staff Security Group
 //Note the exclusive "!" and the inclusive "&" are seperated and in their own set of parens.
 (&(objectClass=user)(objectCategory=person)(mail=*)(scriptPath=*)(!(memberof=CN=RF-Staff,OU=IT,OU=HQ,DC=company,DC=com)))
+
+//disabled users
+(userAccountControl:1.2.840.113556.1.4.803:=2)
