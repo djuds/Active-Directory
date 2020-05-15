@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=JVp3AtndMIE&t=29s
+
+//Use LDAP Filter Syntax in AD Users and Computers.  
+If an application you manage can pull users from AD, you need to specify the query.  Generally the UI provided by that application for viewing AD data and testing your query is of poor quality.  Use AD Users and Computers first to determine the query you need and then copy/paste your query into that application.
