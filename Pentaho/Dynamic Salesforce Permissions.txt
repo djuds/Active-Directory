@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=xTZO88UMWU8
+
+//memberOf is an AD attribute.  The contents of memberOf is the list of AD groups in which an AD user belongs.
+In Pentaho, you can rename it as a part of your LDAP input step, but it's not mandatory to rename.  For simplicity, I used the same name.
+
+//indexOf is a method in the Modified Javascript value step
+If the string parameter passed to the indexOf method is found in the memberOf variable, the value returned will be greater than -1.
+
+if(memberOf.indexOf('CN=...DC.com') > -1){
+//set variable values here.  Set Role, Profile, Permission Set, etc. here based on AD group membership
+}
